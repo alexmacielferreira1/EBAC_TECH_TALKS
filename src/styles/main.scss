@@ -1,4 +1,8 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
 
 
 * {
@@ -6,10 +10,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto, sans-serif;
-    background-image: url(../images/fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-        color: #fff;
+    color: variables.$textColor;
+    list-style: none;
 }
 
 .container {
